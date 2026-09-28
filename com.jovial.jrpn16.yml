@@ -11,7 +11,6 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --device=dri
-  - --share=network
 modules:
   - flutter-sdk-3.47.5.json
   - name: jrpn16
@@ -38,9 +37,10 @@ modules:
       - install -Dm644 app/share/metainfo/com.jovial.jrpn16.metainfo.xml /app/share/metainfo/com.jovial.jrpn16.metainfo.xml
       - install -Dm644 app/share/applications/com.jovial.jrpn16.desktop /app/share/applications/com.jovial.jrpn16.desktop
       - install -Dm644 app/share/icons/hicolor/256x256/apps/com.jovial.jrpn16.png /app/share/icons/hicolor/256x256/apps/com.jovial.jrpn16.png
+      - install -Dm644 app/share/icons/hicolor/512x512/apps/com.jovial.jrpn16.png /app/share/icons/hicolor/512x512/apps/com.jovial.jrpn16.png
     sources:
       - type: git
         url: https://github.com/zathras-de/jrpn_test.git
-        tag: 690e805732d15e99e82d31032ed7e492b20a1f8d
-        commit: 690e805732d15e99e82d31032ed7e492b20a1f8d
+        tag: cf22c9551fefb2aa107023e55fca53d9bee50727
+        commit: cf22c9551fefb2aa107023e55fca53d9bee50727
       - pubspec-sources.json
