@@ -12,7 +12,7 @@ finish-args:
   - --socket=wayland
   - --device=dri
 modules:
-  - flutter-sdk-3.47.5.json
+  - flutter-sdk-3.47.6.json
   - name: jrpn16
     subdir: jrpn16
     buildsystem: simple
@@ -41,6 +41,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/zathras-de/jrpn_test.git
-        tag: cf22c9551fefb2aa107023e55fca53d9bee50727
-        commit: cf22c9551fefb2aa107023e55fca53d9bee50727
+        tag: dff07f0471f4fc7a6b3ad163e4ba13a8ad5f78d2
+        commit: dff07f0471f4fc7a6b3ad163e4ba13a8ad5f78d2
       - pubspec-sources.json
